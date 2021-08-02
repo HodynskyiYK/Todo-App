@@ -1,5 +1,6 @@
 import React from 'react';
 import PostsList from "./components/PostsList";
+import TodosList from "./components/TodosList";
 
 const App = () => {
 
@@ -8,6 +9,8 @@ const App = () => {
             <h1>App</h1>
             <hr />
             <PostsList />
+            <hr/>
+            <TodosList />
         </div>
     );
 };
