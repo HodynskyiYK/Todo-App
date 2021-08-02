@@ -5,13 +5,17 @@ import TodosList from "./components/TodosList";
 const App = () => {
 
     return (
-        <div className="container">
-            <h1>App</h1>
-            <hr />
-            <PostsList />
-            <hr/>
-            <TodosList />
-        </div>
+        <>
+            <header className="text-center">Header</header>
+            <div className="container">
+                <h1>App</h1>
+                <hr />
+                <PostsList />
+                <hr/>
+                <TodosList />
+            </div>
+            <footer className="text-center">Footer</footer>
+        </>
     );
 };
 
