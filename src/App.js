@@ -11,6 +11,7 @@ const App = () => {
             <PostsList />
             <hr/>
             <TodosList />
+            <hr/>
         </div>
     );
 };
